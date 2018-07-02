@@ -1,0 +1,38 @@
+body 							{background-image:url(WorldMap.png);
+									background-repeat:no-repeat;
+									background-position:50% 0px;
+									padding: 5px;
+								  text-align: center;}
+image
+p									{font-family:arial;
+									margin:5px;}
+h1								{font-family:arial;
+									text-align:center;}
+h2								{font-family:arial;}
+h3								{font-family:arial;}
+a									{font-family:arial;} <!--This is the link tag-->
+a:link						{} <!-- These are the link states -->
+a:hover						{color:yellow;
+									text-decoration:underline;} <!-- These are the link states -->
+a:active					{background-color:orange;} <!-- These are the link states -->
+a:visited					{color:green} <!-- These are the link states -->
+span 							{} <!-- use span tags to change parts within elements-->
+.arial 						{font-family:arial;} <!--this is how to define a class-->
+.cambria 					{font-family:cambria;}
+#tagline					{font-family:arial;
+									text-align: center;}
+#backgroundimage	{max-width: 1920px}
+#homeworld				{position:absolute;}
+#apples						{border: 2px solid red;
+									position: absolute;
+									width: 50px;
+									height: 175px;
+									top: 30px;
+									left: 60px}
+#blueberries			{border: 2px solid blue;
+									position: absolute;
+									width: 50px;
+									height: 175px;
+									top: 90px;
+									left: 75px;}
+p > a   					{color:red;}
